@@ -236,6 +236,7 @@ button {
         transition: color .35s ease-in-out;
         cursor: pointer;
 
+        &.active,
         &:hover {
           color: #fff;
         }

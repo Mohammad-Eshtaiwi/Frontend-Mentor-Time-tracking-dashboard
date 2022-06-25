@@ -215,7 +215,7 @@ button {
   transition: color 0.35s ease-in-out;
   cursor: pointer;
 }
-.card-grid .user-card ul li:hover {
+.card-grid .user-card ul li.active, .card-grid .user-card ul li:hover {
   color: #fff;
 }
 .card-grid .card {
