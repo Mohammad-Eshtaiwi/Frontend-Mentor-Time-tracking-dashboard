@@ -374,6 +374,10 @@ button {
   .card-grid {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   }
+
+  .user-card__header {
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 549px) {
